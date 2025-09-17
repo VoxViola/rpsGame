@@ -1,0 +1,5 @@
+pseudo code
+
+1. use math random function to create probability in 3rds within function getComputerChoice
+2. match to returns 
+3. create input 

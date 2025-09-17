@@ -1,3 +1,13 @@
-let hello = "Hello, World."
+let choice = Math.floor(Math.random()*100);
 
-console.log(hello);
+function getComputerChoice (choice) {
+    if (choice <= 33) {
+        return "rock";
+    } else if (choice >= 34 && choice < 67) {
+        return "paper";
+    } else if (choice >= 67) {
+        return "scissors";
+    }
+}
+
+console.log(getComputerChoice(choice));
